@@ -1,10 +1,16 @@
+/*3. Escribir una aplicación para el famoso problema FizzBuzz. La aplicación debe imprimir los
+números del 1 al 100. Pero, para números múltiplos de 3 debe imprimir “Fizz” (en vez del
+número). Para números múltiplos de 5 debe reemplazar por “Buzz”. Para números múltiplos
+simultáneamente de 3 y 5 debe imprimir “FizzBuzz”.*/
+
+
 #include <iostream>
 #include <string>
 
 using namespace std;
-int fizz(int a);
-int buzz(int c);
-int fizzbuzz(int d);
+void fizz(int a);
+void  buzz(int c);
+void fizzbuzz(int d);
 
 
 int main(){
@@ -14,29 +20,30 @@ int main(){
 	int b=1;
 while(b<101){
 	if (b%15==0){
-		cout<< fizzbuzz(b) <<endl;
+	    fizzbuzz(b);
+	    cout<<endl;
 	}
 	else if (b%5==0){
-		cout<< buzz(b) <<endl;
+	fizz(b);
+	 cout<<endl;
 			}
 	 else if (b%3==0){
-		cout<<fizz(b) <<endl;
+	buzz(b);
+	 cout<<endl;
 			}
 	else {
-			cout<<b <<endl;
+cout<<b<<endl;
 		}
 		b++;
 }	
 }
-int fizz(int a)
-{
-cout<<"Fizz ";
+void  fizz(int a){
+ cout<<"Fizz";
 }
-int buzz(int c)
-{
-cout<<"Buzz ";
+void buzz(int c){
+cout<<"Buzz";
+
 }
-int fizzbuzz(int d)
-{
-cout<<"FizzBuzz ";
+void fizzbuzz(int d){
+cout<<"FizzBuz";
 }
