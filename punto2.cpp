@@ -1,3 +1,6 @@
+/*2. Recibir un entero N y calcular dos valores: la suma de todos los números pares y la suma de
+todos los impares hasta N.*/
+
 #include <iostream>
 
 using namespace std;
