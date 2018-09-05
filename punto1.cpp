@@ -1,6 +1,6 @@
-1. Recibir un caracter representando las posibles calificaciones (‘A’, ‘B’, ‘C’, ‘D’ o ‘F’). De
+/*1. Recibir un caracter representando las posibles calificaciones (‘A’, ‘B’, ‘C’, ‘D’ o ‘F’). De
 acuerdo con el caracter, imprimir de regreso en la consola un mensaje apropiado; por
-ejemplo, si la nota es ‘A’ imprimir “Excelente, todo ha sido perfecto”.
+ejemplo, si la nota es ‘A’ imprimir “Excelente, todo ha sido perfecto”.*/
 
 #include <iostream>
 #include <string>
