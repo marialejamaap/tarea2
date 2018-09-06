@@ -1,3 +1,8 @@
+/*  5. Escriba una aplicación que reciba una frase del usuario. Luego debe imprimir de regreso el
+número total de vocales y el número total de consonantes que se encuentran en la frase.*/
+
+
+
 #include <iostream>
 #include<string>
 
