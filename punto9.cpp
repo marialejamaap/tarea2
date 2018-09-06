@@ -1,4 +1,7 @@
-// Example program
+/*9. Escriba una función llamada “exchange” que intercambie los valores de dos variables que
+contienen enteros. Para ello ingrese los valores por referencia. Mejore la aplicación anterior
+sobrecargando la función “exchange”, para que sea posible intercambiar variables enteras,
+flotantes y strings.*/
 #include <iostream>
 #include <string>
 #include <math.h>
