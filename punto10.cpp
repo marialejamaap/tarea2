@@ -1,4 +1,10 @@
-// Example program
+/*10. Escriba una aplicación para calcular la potencia número 𝑎
+𝑏 con una función basada en recursividad. AYUDA: considere que 𝑎
+𝑏 = 𝑎 ∗ 𝑎^(𝑏−1)
+y que 𝑎^0 = 1.*/
+
+
+
 #include <iostream>
 #include <string>
 #include <math.h>
