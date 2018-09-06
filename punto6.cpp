@@ -2,6 +2,7 @@
 entre ellos. Posteriormente escriba una aplicación que reciba 6 números enteros y que use
 ÚNICAMENTE dicha función para calcular el mayor de ellos.*/
 
+
 #include <iostream>
 #include<string>
 
@@ -10,12 +11,11 @@ using namespace std;
 int max(int x);
 int main(){
 int a, counter=0, z ;
-cout<<"enter six numbers";
+cout<<"enter six numbers" <<endl ;
 do{
 
 cin>>a;
 z=max(a);
-cout<<endl;
  counter++;
    } while (counter!=6);
    
