@@ -1,3 +1,7 @@
+/*6. Escriba una función con dos argumentos de entrada enteros y que regrese el mayor número
+entre ellos. Posteriormente escriba una aplicación que reciba 6 números enteros y que use
+ÚNICAMENTE dicha función para calcular el mayor de ellos.*/
+
 #include <iostream>
 #include<string>
 
