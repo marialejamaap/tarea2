@@ -1,4 +1,8 @@
-// ejercicio 8
+/*8. Queremos construir una aplicación para analizar un movimiento de proyectil. La aplicación
+debe recibir del usuario el ángulo de salida (θ) y la velocidad inicial del cañón (vo). Escriba
+diferentes funciones para calcular el tiempo de vuelo (t), la altura máxima (H) y el alcance
+horizontal del proyectil (R). Finalmente escriba una función sin retorno que imprima los
+resultados en consola.*/
 #include <iostream>
 #include <string>
 #include <math.h>
