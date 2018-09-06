@@ -11,14 +11,15 @@ tamaño 5 la pirámide tiene la apariencia:
   ********
  ********* */
 
-
 #include <iostream>
 #include <string>
 using namespace std;
+void triangulo (int a);
+
 
 int main()
 {
- int i,j,n,aux;
+ int j,n,aux;
  string sp;
  string sr;
  cout<<"ingrese un numero para filas y columnas del triangulo: ";
@@ -30,13 +31,17 @@ int main()
  sr=sp;
  
  for (j=1;j<=aux;j++){
- for (i=1;i<=n;i++){
-     cout<<" ";
-     }
+triangulo(n);
      cout<<sp;
 cout<<endl;
    n=n-1;
 sp=sp+sr;
-}
+}}
 
-}
+void triangulo (int a){
+    int i;
+    for (i=1;i<=a;i++){
+     cout<<" ";
+     }
+    }
+
